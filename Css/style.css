@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+    /* border: 1px solid black; */
+}
+p{
+    color: #667085;
+}
+
+header .navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mybtn {
+    background-color: #6B46FF !important;
+    color: white;
+}
+
+.img-wrapper{
+    position: relative;
+    width: fit-content;
+}
+.bg-image{
+    display: block;
+}
+.position-2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mymargin{
+    margin-top: 40% ;
+}
+.gapclass{
+    /* flex-direction: column; */
+    display: flex;
+    gap: 10px;
+}
+.mycard{
+    padding: 10px;
+    border: 1px solid #ccc !important;
+    border-radius: 10px;
+    width: calc(25% - 10px);
+    /* background-color: red; */
+}
+.btnclass{
+    /* justify-content: space-evenly; */
+    margin: auto;
+    gap: 10px;
+    display: flex;
+    max-width: 360px;
+}

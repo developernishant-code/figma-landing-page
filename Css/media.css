@@ -1,0 +1,35 @@
+@media only screen and (min-width:0px) and (max-width:992px) {
+
+    .navbar>.container,
+    .navbar>.container-fluid,
+    .navbar>.container-lg,
+    .navbar>.container-md,
+    .navbar>.container-sm,
+    .navbar>.container-xl,
+    .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-between !important;
+    }
+
+    .mymargin {
+        background-color: red;
+        margin-top: 30px !important;
+    }
+    .mybtn{
+        width: 250px;
+        display: block;
+        margin: 20px auto;
+    }
+
+    .gapclass {
+        flex-direction: column;
+        display: flex;
+        gap: 10px;
+    }
+
+    .mycard {
+        /* width: 100% !important; */
+    }
+}
